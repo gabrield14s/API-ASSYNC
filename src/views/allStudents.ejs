@@ -1,0 +1,22 @@
+<%-include('./layout/header')%>
+
+<script src="../../node_modules/bootstrap/js"></script>
+
+<a href="/students">New</a>
+
+<table>
+
+<%Student.forEach(element => { %>
+    <tr>
+        <td><%=element.code%></td>
+        <td><%=element.name%></td>
+        <td><%=element.dateOfBirth%></td>
+        <td><%=element.status%></td>
+        <td><%=element.email%></td>
+        <td><a href="/students/all">Deletar</a></td>
+    </tr>
+<%})%>
+
+</table>
+
+<%-include('./layout/footer')%>

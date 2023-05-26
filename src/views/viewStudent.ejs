@@ -1,31 +1,30 @@
 <%-include('./layout/header')%>
 
-<form action="">
+<a href="students/all">All Students</a>
+
+<form method="post" action="/students/all">
 
     <div class="form-input">
         <label for="">Name: </label>
-        <input type="text" required>
+        <input type="text" name="name" required>
     </div>
     
     <div class="form-input">
         <label for="">Date of Birth</label>
-        <input type="date" required>
-    </div>
-
-    <div class="form-input">
-        <label for="">Code</label>
-        <input type="number"required>
+        <input type="text" name="dateOfBirth" required>
     </div>
 
     <div class="form-input">
         <label for="">Status</label>
-        <input type="text" required>
+        <input type="text" name="status" required>
     </div>
 
     <div class="form-input">
         <label for="">Email</label>
-        <input type="email" required>
+        <input type="email" name="email" required>
     </div>
+
+    <button type="submit">Submit</button>
 </form>
 
 <%-include('./layout/footer')%>

@@ -1,5 +1,5 @@
 {
-  "name": "api-assincrona",
+  "name": "CRUD-JS",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "nodemon": "^2.0.22"

@@ -1,3 +1,3 @@
-let alunos = []
+let database = []
 
-export default alunos;
+export default database;
